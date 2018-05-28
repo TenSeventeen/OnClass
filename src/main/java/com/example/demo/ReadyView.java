@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.example.demo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,6 +7,8 @@ import java.util.Scanner;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
+import com.example.demo.service.OnClassService;
 
 @Configuration
 public class ReadyView {
