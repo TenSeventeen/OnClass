@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 import com.example.demo.service.OnClassService;
 
 @Configuration
-public class ReadyView {
+public class OnClassController {
 	@Autowired
 	private OnClassService onClassService;
 
